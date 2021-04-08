@@ -10,23 +10,23 @@ const Auth = ({ authRoute }) => {
             {authRoute === "register" && <RegisterForm />}
         </>
     );
-    const arr = [
-        {
-            id: 1,
-            name: "Test 1",
-        },
-        {
-            id: 2,
-            name: "Test 2",
-        },
-        {
-            id: 3,
-            name: "Test 3",
-        },
-    ];
-    const renderElement = arr.map((item, index) => (
-        <h1 key={index}>{item.name}</h1>
-    ));
+    // const arr = [
+    //     {
+    //         id: 1,
+    //         name: "Test 1",
+    //     },
+    //     {
+    //         id: 2,
+    //         name: "Test 2",
+    //     },
+    //     {
+    //         id: 3,
+    //         name: "Test 3",
+    //     },
+    // ];
+    // const renderElement = arr.map((item, index) => (
+    //     <h1 key={index}>{item.name}</h1>
+    // ));
 
     return (
         <div className="body-login">
